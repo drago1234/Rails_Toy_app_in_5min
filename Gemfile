@@ -6,8 +6,7 @@ ruby '2.6.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
-# gem 'pg'
+gem 'pg' # instead of gem 'sqlite3', '1.3.3'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
